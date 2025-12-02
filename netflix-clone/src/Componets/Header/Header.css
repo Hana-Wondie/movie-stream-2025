@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.hide {
+  display: none;
+}
 
 .commonContainer {
   height: 10vh;
@@ -47,4 +50,9 @@
 .rightDiv ul li {
   display: flex;
   align-items: center;
+}
+@media(min-width :760px) {
+  .hide {
+    display: block;
+  }
 }
