@@ -20,7 +20,7 @@ function Footer() {
   <li>Investor Relations</li>
   <li>Legal Notice</li>
   <li>Service Code</li>
-  <li>&copy; 1997-2024 Netflix, Inc.</li>
+  <li>&copy; 1997-2024 movie stream, Inc.</li>
 </div>
 
 

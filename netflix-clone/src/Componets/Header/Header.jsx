@@ -10,7 +10,7 @@ function Header() {
         <div className="innerContainer">
           <div className="leftDiv">
             <ul>
-              <li>Netflix</li>
+              <li>Movie Stream</li>
               <li className="hide">Home</li>
               <li className="hide">TvShow</li>
               <li className="hide">Movies</li>

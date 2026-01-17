@@ -7,7 +7,7 @@ const [movie, setMovie] = useState({})
 useEffect(() => {
 const movieFun = async () => {
     try {
-      const request = await axios.get(requests.fetchNetflixOriginals) 
+      const request = await axios.get(requests.fetchOriginals); 
       console.log(request);
       setMovie(request.data.results[
         Math.floor(Math.random() * request.data.results.length)
